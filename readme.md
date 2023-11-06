@@ -87,7 +87,6 @@ INSERT INTO product(id, category_id, product_name, product_description, product_
 ```
 
 
-
 ### 1.3. Reset the Identity sequence for both tables
 
 Run the following SQL to avoid primary key errors when inserting new categories or products from the application
@@ -103,7 +102,7 @@ ALTER SEQUENCE product_id_seq RESTART WITH 25;
 
 ### 2.1. Setup
 
-Create a new Supabase Application, following the lab examples. The application should connect to Supabase and use environment variables for secrets and other variables.
+Create a new Supabase Application, **if unsure follow the example lin lab 3**. The application should connect to Supabase and use environment variables for secrets and other variables.
 
 ### 2.2. API routes
 
