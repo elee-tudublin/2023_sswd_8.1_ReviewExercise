@@ -26,7 +26,7 @@ You are required to build a Sveltekit application to display products and catego
 Create two new tables, `product` and `category` in Supabase, based on this ERD. 
 
 Setup the Primary keys for each table, choose appropriate datatypes and setup the one-many relatonship between the tables.
-
+**use `int8` as the datatype for the `id` column**
 
 
 ![product_category_erd](./media/product_category_erd.png)
