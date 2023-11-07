@@ -102,7 +102,7 @@ ALTER SEQUENCE product_id_seq RESTART WITH 25;
 
 ### 2.1. Setup
 
-Create a new Supabase Application, **if unsure follow the example lin lab 3**. The application should connect to Supabase and use environment variables for secrets and other variables (**see lab 5**).
+Create a new Sveltekit Application, **if unsure follow the example lin lab 3**. The application should connect to Supabase and use environment variables for secrets and other variables (**see lab 5**).
 
 ### 2.2. API routes
 
